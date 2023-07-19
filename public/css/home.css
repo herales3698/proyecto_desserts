@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+    gap: 40px; /* Espacio entre las columnas */
+  }
+  
+  .texto {
+    grid-column: 1; /* El texto ocupa la segunda columna */
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tittle-home {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+  }
+  
+  .imagenes {
+    grid-column: 2; /* La imagen ocupa la primera columna */
+    text-align: center;
+  }
+  
+  .imagen1 {
+    margin-top: 55px;
+    width: 1fr ; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 1fr;
+  }
+ .carousel-item{
+    margin-top: 55px;
+    width: 300px;
+    height: 300px;
+ }
+  

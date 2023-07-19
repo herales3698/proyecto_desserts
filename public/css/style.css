@@ -1,0 +1,38 @@
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+  }
+  
+.item{
+
+    border-radius: 5px;
+    background-color: #F4F2DE;
+    list-style: none;
+    margin: 15px;
+    padding: 10px;
+}
+#navbar{
+    background-color: #A1CCD1;
+}
+
+.nav-item{
+    border-radius: 5px;
+    background-color: #E9B384;
+    list-style: none;
+    margin: 15px;
+    padding: 10px;
+}
+
+.item_icon{
+    background-color: #A1CCD1;
+    font-size: 60px; /* Ajusta el tamaño del icono según tus necesidades */
+    line-height: 1;
+    vertical-align: middle;
+    list-style: none;
+}
+
+  

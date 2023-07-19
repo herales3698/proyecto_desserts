@@ -1,0 +1,8 @@
+.productos-container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: 2fr;
+   margin-bottom: 80px;
+   margin-top: 30px;
+  }
+  
